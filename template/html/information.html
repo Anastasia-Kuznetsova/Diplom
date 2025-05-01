@@ -1,0 +1,45 @@
+{% extends 'html/base.html' %}
+{% load static %}
+
+{% block static %}<link rel="stylesheet" type="text/css" href="{% static 'css/task.css' %}">{% endblock %}
+
+{% block title %}Теория{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="container transparent-bg">
+            <h3>1. Анализ столбчатых диаграмм</h3>
+        <a href="https://lib.myschool.edu.ru/content/13780">Часть 1</a>
+        <a href="https://lib.myschool.edu.ru/content/5995">Часть 2</a>
+        <h3>2. Выражения со скобками</h3>
+        <a href="https://lib.myschool.edu.ru/content/12744">Часть 1</a>
+        <h3>3. Действия с десятичными дробями</h3>
+        <a href="https://lib.myschool.edu.ru/content/12605">Часть 1</a>
+        <a href="https://lib.myschool.edu.ru/content/12606">Часть 2</a>
+        <h3>4. Действия с обыкновенными дробями</h3>
+        <a href="https://lib.myschool.edu.ru/content/12608">Часть 1</a>
+        <a href="https://lib.myschool.edu.ru/content/12609">Часть 2</a>
+        <h3>5. Действия с отрицательными числами</h3>
+        <a href="https://lib.myschool.edu.ru/content/11026">Часть 1</a>
+        <a href="https://lib.myschool.edu.ru/content/11027">Часть 2</a>
+        <h3>6. Логические задачи повышенной сложности</h3>
+        <a href="https://vk.com/wall710677171_665?ysclid=m2ya95ovpx37242716">Часть 1</a>
+        <h3>7. Модуль числа</h3>
+        <a href="https://lib.myschool.edu.ru/content/12035">Часть 1</a>
+        <a href="https://lib.myschool.edu.ru/content/12036">Часть 2</a>
+        <h3>8. Нахождение части числа</h3>
+        <a href="https://resh.edu.ru/subject/lesson/7764/main/313394/">Часть 1</a>
+        <h3>9. Оценка размеров объектов на плане</h3>
+        <a href="https://vk.com/video626067381_456239269">Часть 1</a>
+        <h3>10. Оценка размеров объектов с помощью сравнения</h3>
+        <a href="https://rutube.ru/video/571239cb10831a005398f00ee0eed77d/">Часть 1</a>
+        <h3>11. Простые логические задачи</h3>
+        <a href="https://www.youtube.com/watch?v=GX4rFXf0KDA">Часть 1</a>
+        <h3>12. Решение текстовых задач на проценты</h3>
+        <a href="https://lib.myschool.edu.ru/content/5921">Часть 1</a>
+        <a href="https://lib.myschool.edu.ru/content/5912">Часть 2</a>
+
+        <p><h3><a href="{% url 'task' %}"><img src="{% static 'images/back.png' %}" alt="Назад" width="35" height="35"></a></h3></p>
+    </div>
+    </div>
+{% endblock %}
