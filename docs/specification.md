@@ -10,7 +10,7 @@
   import re: Импортирует модуль re для работы с регулярными выражениями.
 
 Регистрация фильтра:
-  ```register = template.Library()``` Создает экземпляр template.Library(), который используется для регистрации пользовательских фильтров.
+```register = template.Library()``` Создает экземпляр template.Library(), который используется для регистрации пользовательских фильтров.
 
 Функция-фильтр convert_to_latex:
   ```@register.filter(name='convert_to_latex')```
