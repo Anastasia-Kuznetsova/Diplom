@@ -13,7 +13,7 @@
   register = template.Library(): Создает экземпляр template.Library(), который используется для регистрации пользовательских фильтров.
 
 Функция-фильтр convert_to_latex:
-  @register.filter(name='convert_to_latex'): Декоратор, который регистрирует функцию convert_to_latex как пользовательский фильтр Django с именем ‘convert_to_latex’.
+  @ register.filter(name='convert_to_latex'): Декоратор, который регистрирует функцию convert_to_latex как пользовательский фильтр Django с именем ‘convert_to_latex’.
   def convert_to_latex(text):: Определение функции-фильтра, принимающей один аргумент:
     text: Строка, содержащая математическое выражение.
 
